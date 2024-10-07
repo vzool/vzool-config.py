@@ -1,4 +1,4 @@
-from config import ConfigManager
+from vzool_config import ConfigManager
 
 
 def test_config_manager():

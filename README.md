@@ -12,12 +12,18 @@ The ConfigManager class provides a convenient way to store and retrieve configur
 - Error Handling: Provides clear error messages for invalid data types or database operations.
 - Testing: Includes a built-in test function to ensure proper functionality.
 
+## Installation:
+
+```shell
+pip install vzool-config
+```
+
 ## Usage:
 
 1- Import the Class:
 
 ```python
-import ConfigManager
+from vzool_config import ConfigManager
 ```
 
 2- Create an Instance:

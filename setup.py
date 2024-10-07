@@ -20,7 +20,7 @@ setup(
     python_requires=">=3.9",
     packages=find_packages(
         include=[
-            'config',
+            'vzool_config',
         ],
     ),
     requires=[],

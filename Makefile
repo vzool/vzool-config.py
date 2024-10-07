@@ -34,14 +34,14 @@ pytest:
 .PHONY: test
 # run tests
 test:
-	make clean && python3 config/config_manager.py
+	make clean && python3 vzool_config/config_manager.py
 
 .PHONY: deploy
 # deploy package
 deploy:
 	rm -rf dist/
 	python3 -m build
-	python3 -m twine upload --repository config dist/*
+	python3 -m twine upload --repository vzool_config dist/*
 
 # show help
 help:

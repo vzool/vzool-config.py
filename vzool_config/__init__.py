@@ -1,5 +1,5 @@
 # Importing necessary classes and functions from the main module
-from config.config_manager import (
+from vzool_config.config_manager import (
     ConfigManager,
 )
 
