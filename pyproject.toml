@@ -1,0 +1,28 @@
+[project]
+name = 'vzool-config'
+version = '0.0.1'
+authors = [
+  { name='Abdelaziz Elrashed Elshaikh Mohamed', email='aeemh.sdn@gmail.com' },
+]
+description = 'A class for managing configuration settings in a SQLite database.'
+readme = 'README.md'
+requires-python = '>=3.5'
+classifiers = [
+  'Development Status :: 2 - Pre-Alpha',
+  'Intended Audience :: Developers',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3.5',
+  'Programming Language :: Python :: 3.6',
+  'Programming Language :: Python :: 3.7',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Programming Language :: Python :: 3.12',
+  'License :: OSI Approved :: MIT License',
+  'Operating System :: OS Independent',
+]
+dependencies=[]
+
+[project.urls]
+Homepage = 'https://github.com/vzool/vzool-config.py'
+Issues = 'https://github.com/vzool/vzool-config.py/issues'

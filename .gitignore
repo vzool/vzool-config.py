@@ -1,0 +1,11 @@
+venv
+dist
+build
+*.egg-info
+.eggs
+*.db
+*.pyc
+__pycache__
+.pytest_cache
+*.DS_Store
+.idea
